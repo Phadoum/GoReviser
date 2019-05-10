@@ -1,0 +1,277 @@
+body{
+	font-family: 'Source code pro',Calibri,serif;
+	margin: 0px;
+	padding: 0px;
+	font-size: 20px;
+	border: 1px solid write;
+    position: absolute;
+    right: 5%;
+    left: 5%;
+}
+
+nav{
+	width: 100%;
+	background-color: #424558
+}
+
+nav> ul{
+	margin: 0px;
+	padding: 0px;
+}
+
+nav > ul::after{
+	content:"";
+	display: block;
+	clear: both;
+}
+
+nav > ul > li{
+	float: left;
+	position: relative;
+}
+
+nav > ul > li > a{
+	padding: 20px 30px;
+	color: #FFF;
+}
+
+nav > ul > li:hover a{
+	padding: 15px 30px 20px 30px;
+}
+
+nav li{
+	list-style-type: none;
+}
+
+.submenu{
+	display: none;
+}
+
+nav a{
+    display:inline-block;
+    text-decoration: none;
+    padding: 20px 30px;
+    color: #FFF;
+    text-transform: uppercase;
+    font-size: 15px;
+}
+
+nav li:hover .submenu{
+	display: inline-block;
+	position: absolute;
+	top: 100%
+	left: 0px;
+	padding: 0px;
+	z-index: 1000;
+}
+
+nav li:hover a{
+    padding: 15px 30px 20px 30px;
+}
+.submenu li{
+	border-bottom: 1px solid #CCC;
+}
+
+.submenu li a{
+	padding: 15px 30px;
+	font-size: 13px;
+	color: #222538
+	width: 270px;
+}
+
+.menu-accueil:hover{
+    border-top: 5px solid #026491;
+    background-color: RGBa(64, 20, 130, 0.15);
+    margin-bottom: 0px;
+}
+.menu-math:hover{
+	border-top: 5px solid #e44d26;
+	background-color: rgba(228, 77, 38, 0.15);
+	font-size: 20px;
+}
+.menu-pc:hover{
+	border-top: 5px solid #0070bb;
+	background-color: rgba(000, 112, 192, 0.15);
+}
+.menu-svt:hover{
+	border-top:5px solid #f1dc4f;
+	background-color: rgba(241, 211, 79, 0.15);
+}
+.menu-contact:hover{
+    border-top: 5px solid #B9121B;
+    background-color: rgba(228, 77,38, 0.15);
+    margin-bottom: 0px;
+}
+
+.menu-accueil .submenu{
+	background-color: rgb(230, 101, 38);
+}
+.menu-math .submenu{
+	background-color: rgb(230, 100, 40);
+}
+.menu-pc .submenu{
+	background-color: rgb(000, 160, 240);
+}
+.menu-svt .submenu{
+	background-color: rgb(250, 215, 100);
+}
+.submenu li:hover a{
+	color: #EEE;
+	font-weight: bold;
+}
+
+.menu-accueil .submenu li:hover{
+	background-color: rgb(000, 76, 69);
+}
+.menu-math .submenu li:hover{
+	background-color: rgb(210, 77, 60);
+}
+.menu-pc .submenu li:hover{
+	background-color: rgb(000, 115, 200);
+}
+.menu-svt .submenu li:hover{
+	background-color: rgb(200, 165, 75);
+}
+
+h1
+{
+	font-size: 40px;
+	text-align: center;
+}
+
+body{
+	background-color: #8FC8C1
+}
+
+em{
+	color: #0000FF
+}
+
+/* Partie Phiysique */
+
+.sy
+{
+    position: relative;
+    text-align: center;
+}
+
+.oncapital, .onsmall {
+    position: absolute;
+    top: -0.5em;
+    left: 0px;
+    width: 100%;
+    font-size: 70%;
+    text-align: center;
+}
+.onsmall
+{
+    top: -0.7em;
+}
+
+.bordure1
+{
+	height: 35px;
+	width: 250px;
+ border: 2px solid black;
+	background-color: pink;
+	}
+
+.bordure2
+{
+	height: 40px;
+	width: 400px;
+ border: 2px solid black;
+	background-color: pink;
+	}
+
+	strong
+	{
+		color: blue;
+	}
+	
+	.bord3
+{
+	height: 40px;
+	width: 100px;
+ border: 2px solid black;
+	background-color: pink;
+	}
+	
+	.taille
+	{
+		font-size: 10px;
+	}
+	
+	.droite
+	{
+		float: right;
+		position: relative;
+		top: -50px;
+		right: 70px;
+		width: 350px;
+		height: 350px;
+	}
+	
+	.i6
+	{
+		float: right;
+		position: relative;
+		top: -50px;
+		right: 100px;
+	}
+	
+	.i10
+{
+	 width: 600px;
+		height: 200px;
+		position: relative;
+	}
+	
+	.i11
+	{
+		float: right;
+		position: relative;
+		top: -100px;
+		right: 250px;
+		width: 400px;
+		height: 130px;
+	}
+	
+		.i14
+	{
+		position: relative;
+		top: 30px;
+	}
+	
+	.i22
+	{
+		float: right;
+		position: relative;
+		top: -120px;
+		right: 130px;
+		width: 350px;
+		height: 230px;
+	}
+.i26
+{
+	width: 100px;
+		height: 100px;
+}
+
+p
+{
+	color: #800000;
+}
+	.radical
+	{
+  position: relative;
+  font-size: 1.6em;
+  vertical-align: middle;
+	}
+	
+.radicand
+{ 
+  padding: 0.25em 0.25em;
+  border-top: thin black solid;
+}
+				

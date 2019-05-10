@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Go Reviser</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Project D'ISN">
+    <link rel="stylesheet" href="../styles.css">
+</head>
+<body>
+    <header>
+    </header>
+    <nav>
+            <ul>
+                <li class=menu-index>
+                    <a href="../index.html">Go Réviser</a>
+                </li>
+                <li class="menu"><a href="../ali/math.html"> Mathématiques </a>
+                    <ul class="submenu">
+                        <li><a href="../ali/1.html"> Nombres complexes </a></li>
+                        <li><a href="../ali/2.html"> Fonction exponentielle </a></li>
+                        <li><a href="../ali/3.html"> Logarithme népérien </a></li>
+                    </ul>
+                </li>
+
+                <li class="menu"><a href="physique.html"> Physique </a>
+                    <ul class="submenu">
+                        <li><a href="1.html"> Mécanique de Newton </a></li>
+                        <li><a href="2.html"> Mouvement d'un oscillateur et des planetes </a></li>
+                        <li><a href="3.html"> Mouvement des satellite mécanique et mesure du temps</a></li>
+                    </ul>
+                </li>
+
+                <li class="menu"><a href="../svt/svt.html"> SVT </a>
+                    <ul class="submenu">
+                        <li><a href="../svt/1.html"> Formation et disparition des chaînes de montagnes </a></li>
+                        <li><a href="../svt/2.html"> Les caractéristique de la lithosphère continentale </a></li>
+                        <li><a href="../svt/3.html"> Sujet3 </a></li>
+                    </ul>
+                </li>
+
+                <li class="menu"><a href="info.html">Informations</a></li>
+            </ul>
+    </nav>
+    
+    <center><h1>Mouvement des satellites et des planètes</h1></center><br>
+    
+    <h3><strong>SOMMAIRE</strong></h3>
+    
+    <ul>
+        <li>
+            <em><a href="#a1">1) Le mouvement des planètes : les lois de Kepler</a></em>
+        </li><br>
+            
+        <li>
+            <em><a href="#a2">2) Le mouvement circulaire et uniforme d'un point matériel</a></em>
+        </li><br>
+        
+        <li>
+            <em><a href="#a3">3) Le mouvement d'un satellite autour de la Terre</em></a>
+            <ul>
+                <li>
+                    <a href="#a4">A. Cadre de l'étude</a>
+                </li>
+                
+                <li>
+                    <a href="#a5">B. Vitesse du satellite</a>
+                </li>
+            
+                <li>
+                    <a href="#a6">C. Période de révolution</a>
+                </li>
+            </ul>
+        </li>
+    </ul>
+    
+    <h2 id="a1">1) Le mouvement des planètes : les lois de Kepler</h2>
+    
+    <ul>
+        <li>
+            <strong>Première loi de Kepler ou loi des orbitres</strong><br>
+            Chaque planètes du Système solaire décrit autour du Soleil une <strong>ellipse</strong>
+            dont le Soleil occupe un des foyers.<br><br>
+            <center><img class="i10" src="10.png" alt=""></center>
+        </li><br><br>
+        
+        <li>
+             <strong>Deuxième loi de Kepler ou loi des aires</strong><br>
+             Le <strong>rayon vecteur</strong> qui joint le centre de la planète à celui du Soleil bayale
+             des aires égales pendant des durées égales.<br>
+             on pase :<br>
+             SP, SP', SM, SM' = rayons vecteur (avec SP < SM et SP' < SM');<br>
+             SPP' = aire balayée pendant &Delta;t ;<br>
+             SMM' = aire balayée pendant &Delta;t' ;<br>
+             Si &Delta;t = &Delta;t' alors les aires sont égales : SPP' = SMM'<br>
+             <img class="i11" src="11.png" alt="">             
+        </li><br><br>
+        
+        <li>
+            <strong>Troisième loi de Kepler ou loi des périodes</strong><br>
+            Le carré de la période de révolution T de chaque planète est proportionnel au cube
+            du demi-grand axe a de son orbite elliptique.<br><br>
+                <strong>T&#178;/a&#179; = k</strong><br>
+                - a en mètre;<br>
+                - T en s&#178;/m&#179;;<br>
+                - k en seconde (s);
+          
+        </li>
+    </ul><br>
+    
+    <h2 id="a2">2) Le mouvement circulaire et uniforme d'un point matériel</h2>
+    
+    <ul>
+        <li>
+            <strong>Caractéristiques du mouvement</strong><br>
+            La trajectoire est un cercle de rayon R = OG.<br>
+            Le vecteur vitesse <span class="sy"><i>v</i><span class="oncapital">&rarr;</span></span>
+            est tangent à la trajectoire et sa norme est constante au cours du temps.
+        </li><br>
+        
+        <li>
+            <strong>Le repère tournant ou de Frénet</strong><br>
+            Pour exprimer les vecteurs vitesse et accélérations, on définit le repère de Frénet
+            (G,<span class="sy"><i>T</i><span class="oncapital">&rarr;</span></span>,
+            <span class="sy"><i>N</i><span class="oncapital">&rarr;</span></span>), attaché
+            au point en mouvement G.<br>
+            <span class="sy"><i>T</i><span class="oncapital">&rarr;</span></span> :
+            vecteur unitaire tangent à la trajectoire et orienté dans le sens du mouvement.<br>
+            <span class="sy"><i>N</i><span class="oncapital">&rarr;</span></span> :
+            vecteur unitaire perpendiculaire à la trajectoire et dirigé vers le centre O; il
+            est centripète.<br><br>
+            <center><img src="13.png" alt=""></center>
+        </li><br>
+        
+        <li>
+            <strong>Expression des vecteurs vitesse et accélération dans le repère de Frénet</strong><br><br>
+            - Le vecteur vitesse est <strong>collinéaire</strong> au vecteur
+            <span class="sy"><i>T</i><span class="oncapital">&rarr;</span></span> :
+            <span class="sy"><i>v</i><span class="oncapital">&rarr;</span></span> = v(t) &#215;
+            <span class="sy"><i>T</i><span class="oncapital">&rarr;</span></span>.<br><br>
+            - Vecteur accélération : <span class="sy"><i>a</i><span class="oncapital">&rarr;</span></span> =
+            v&#178;/R &#215; <span class="sy"><i>N</i><span class="oncapital">&rarr;</span></span> +
+            dv/dt &#215; <span class="sy"><i>N</i><span class="oncapital">&rarr;</span></span>.<br><br>
+            - Le vecteur accélération est <strong>centripète</strong> et à une <strong>norme constante</strong> :
+            a = v&#178;/R = constante.<br>
+        </li>
+    </ul><br>
+    
+    <h2 id="a3">3) Le mouvement d'un satellite autour de la Terre</h2>
+    
+    <h3 id="a4">A. Cadre de l'étude</h3>
+    
+    <ul>
+        <li>
+            Le référentiel d'étude est le <strong>référentiel géocentique</strong> supposé galiléen.
+        </li><br>
+        
+        <li>
+            Le <strong>bilan des forces</strong> permet d'identifier une seule force s'exerçant
+            sue le satellite : la force gravitationnelle
+            <span class="sy"><i>F</i><span class="oncapital">&rarr;<p class="taille">T/S</p></span></span>
+            exercée par la Terre sur le satellite.<br><br>
+            <center><img src="16.png" alt=""></center>           
+        </li><br>
+        
+        <li>
+            On applique la deuxième loi de Newton au centre d'inertie G du satellite:<br>
+            <center><img src="17.png" alt=""></center><br>
+            on obtient l'expression du vecteur accélération :  <img class="i14" src="18.png" alt="">
+        </li><br><br>
+        
+        <li>
+            Si le mouvement est circulaire, la distance d entre les centre de la Terre et du satellite
+            reste constante, ce qui implique poue le vecteur accélération d'être à la fois centripète
+            et norme constante. Par exemple, le mouvement d'un satellite géostationnaire autour de la
+            Terre est circulaire et uniforme dans le référentiel géocentrique.
+         </li>
+    </ul><br>
+    
+     <h3 id="a5">B. Vitesse du satellite</h3>
+     
+     <ul>
+        <li>
+            Pour un mouvement circulaire et uniforme, on établit l'expression de la vitesse du satellite :<br><br>
+             <center><img src="19.png" alt=""></center><br>
+        </li>
+     </ul>
+     
+     <h3 id="a6">C. Période de révolution</h3>
+     
+     <ul>
+        <li>
+            La période de révolution T, poiur un mouvement circulaire et uniforme a pour expression :
+            <img class="i14" src="20.png" alt=""><br><br><br>
+            <center><img src="21.png" alt=""></center><br>
+        </li>
+     </ul>
+      <p>
+        Maintenant que vous avez fini la lecon sur ce chapitre,<br>
+        on vous a proposé une Quiz pour tester vous connaissance sur cette leçon.<br>
+        Allez! C'est parti! Balançez-vous! Cliquer sur le smiley!<br>
+        <a href="Quiz chap2.html"> <img class="i26" src="26.jpg" alt=""></a>
+    </p>
+
+    <footer>
+        <p>Le Funz</p>
+    </footer>
+
+</body>
+</html>

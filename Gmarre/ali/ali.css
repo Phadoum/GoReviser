@@ -1,0 +1,152 @@
+body{
+	font-family: 'Source code pro',Calibri,serif;
+	margin: 0px;
+	padding: 0px;
+	font-size: 20px;
+	position: absolute;
+	right: 5%;
+	left: 5%;
+}
+
+nav{
+	width: 100%;
+	background-color: #424558
+}
+
+nav> ul{
+	margin: 0px;
+	padding: 0px;
+}
+
+nav > ul::after{
+	content:"";
+	display: block;
+	clear: both;
+}
+
+nav > ul > li{
+	float: left;
+	position: relative;
+}
+
+nav > ul > li > a{
+	padding: 20px 30px;
+	color: #FFF;
+}
+
+nav > ul > li:hover a{
+	padding: 15px 30px 20px 30px;
+}
+
+nav li{
+	list-style-type: none;
+}
+
+.submenu{
+	display: none;
+}
+
+nav a{
+    display:inline-block;
+    text-decoration: none;
+    padding: 20px 30px;
+    color: #FFF;
+    text-transform: uppercase;
+    font-size: 15px;
+}
+
+nav li:hover .submenu{
+	display: inline-block;
+	position: absolute;
+	top: 100%
+	left: 0px;
+	padding: 0px;
+	z-index: 1000;
+}
+
+nav li:hover a{
+    padding: 15px 30px 20px 30px;
+}
+.submenu li{
+	border-bottom: 1px solid #CCC;
+}
+
+.submenu li a{
+	padding: 15px 30px;
+	font-size: 13px;
+	color: #222538
+	width: 270px;
+}
+
+.menu-accueil:hover{
+    border-top: 5px solid #026491;
+    background-color: RGBa(64, 20, 130, 0.15);
+    margin-bottom: 0px;
+}
+.menu-math:hover{
+	border-top: 5px solid #e44d26;
+	background-color: rgba(228, 77, 38, 0.15);
+	font-size: 20px;
+}
+.menu-pc:hover{
+	border-top: 5px solid #0070bb;
+	background-color: rgba(000, 112, 192, 0.15);
+}
+.menu-svt:hover{
+	border-top:5px solid #f1dc4f;
+	background-color: rgba(241, 211, 79, 0.15);
+}
+.menu-contact:hover{
+    border-top: 5px solid #B9121B;
+    background-color: rgba(228, 77,38, 0.15);
+    margin-bottom: 0px;
+}
+
+.menu-accueil .submenu{
+	background-color: rgb(230, 101, 38);
+}
+.menu-math .submenu{
+	background-color: rgb(230, 100, 40);
+}
+.menu-pc .submenu{
+	background-color: rgb(000, 160, 240);
+}
+.menu-svt .submenu{
+	background-color: rgb(250, 215, 100);
+}
+.submenu li:hover a{
+	color: #EEE;
+	font-weight: bold;
+}
+
+.menu-accueil .submenu li:hover{
+	background-color: rgb(000, 76, 69);
+}
+.menu-math .submenu li:hover{
+	background-color: rgb(210, 77, 60);
+}
+.menu-pc .submenu li:hover{
+	background-color: rgb(000, 115, 200);
+}
+.menu-svt .submenu li:hover{
+	background-color: rgb(200, 165, 75);
+}
+
+h1
+{
+	font-size: 40px;
+	text-align: center;
+}
+
+body{
+	background-color: #8FC8C1
+}
+
+em{
+	color: #0000FF
+}
+.i26
+{
+	width: 100px;
+		height: 100px;
+}

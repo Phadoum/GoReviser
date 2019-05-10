@@ -1,0 +1,150 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,500,700);
+.tableau{
+  position: relative;
+  display: block;
+  margin: 0 5px;
+  float: left;
+  width: 300px;
+  background: #ffffff;
+  font-family: Roboto, Helvetica, sans-serif;
+  text-align: center;
+}
+.math {
+  border-top: 3px solid #56ca7c;
+  border-bottom: 3px solid #56ca7c;
+}
+.pc{
+  border-top: 3px solid #5f5fa7;
+  border-bottom: 3px solid #5f5fa7;
+}
+.SVT {
+  border-top: 3px solid #0e83cd;
+  border-bottom: 3px solid #0e83cd;
+}
+.tableau span {
+  display: block;
+}
+.table-head {
+  padding: 25px 0;
+  font-size: 28px;
+  font-weight: bold;
+}
+.math .table-head {
+  color: #56ca7c;
+}
+.pc .table-head {
+  color: #5f5fa7;
+}
+.SVT .table-head {
+  color: #0e83cd;
+}
+.matiere {
+  padding: 8px 0;
+  font-size: 32px;
+  font-weight: bold;
+  color: #ffffff;
+}
+.math .matiere {
+  background: #56ca7c;
+}
+.pc .matiere {
+  background: #5f5fa7;
+}
+.SVT .matiere {
+  background: #0e83cd;
+}
+.table-row {
+  padding: 10px 0;
+  font-size: 14px;
+  font-weight: 400;
+  color: #888;
+}
+.table-row:nth-child(2n) {
+  background: #f7f7f7;
+}
+.revise {
+  padding: 35px 0;
+}
+a.reviser {
+  position: relative;
+  display: inline-block;
+  z-index: 5;
+  padding: 7px 15px;
+  border-radius: 4px;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 500;
+  -webkit-transition: color .2s ease, background .5s ease;
+  -o-transition: color .2s ease, background .5s ease;
+  transition: color .2s ease, background .5s ease;
+  overflow: hidden;
+}
+.math a.reviser {
+  border: 2px solid #56ca7c;
+  color: #56ca7c;
+}
+.pc a.reviser {
+  border: 2px solid #5f5fa7;
+  color: #5f5fa7;
+}
+.SVT a.reviser {
+  border: 2px solid #0e83cd;
+  color: #0e83cd;
+}
+a.reviser:hover {
+  color: #ffffff;
+}
+.math a.reviser:hover {
+  background: #56ca7c;
+}
+.pc a.reviser:hover {
+  background: #5f5fa7;
+}
+.SVT a.reviser:hover {
+  background: #0e83cd;
+}
+a.reviser:after {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  display: block;
+  z-index: -1;
+  width: 100%;
+  height: 0;
+  content: '';
+  -webkit-transition: all .2s ease;
+  -o-transition: all .2s ease;
+  transition: all .2s ease;
+}
+.math a.reviser:after {
+  background: #56ca7c;
+}
+.pc a.reviser:after {
+  background: #5f5fa7;
+}
+.SVT a.reviser:after {
+  background: #0e83cd;
+}
+a.reviser:hover:after {
+  height: 100%;
+}
+#container {
+			width: 80%;
+			margin: auto;
+			position: relative;
+         float: right;
+		}
+
+.content {
+  position: relative;
+  min-height: 100vh;
+}
+.main-content {
+  padding-bottom: 2.5rem;    /* Footer height */
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 2.5rem;            /* Footer height */
+}

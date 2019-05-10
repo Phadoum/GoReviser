@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Go Reviser</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Project D'ISN">
+    <link rel="stylesheet" href="../styles.css">
+</head>
+<body>
+    <header>
+    </header>
+    <nav>
+            <ul>
+                <li class=menu-index>
+                    <a href="../index.html">Go Réviser</a>
+                </li>
+                <li class="menu"><a href="../ali/math.html"> Mathématiques </a>
+                    <ul class="submenu">
+                        <li><a href="../ali/1.html"> Nombres complexes </a></li>
+                        <li><a href="../ali/2.html"> Fonction exponentielle </a></li>
+                        <li><a href="../ali/3.html"> Logarithme népérien </a></li>
+                    </ul>
+                </li>
+
+                <li class="menu"><a href="physique.html"> Physique </a>
+                    <ul class="submenu">
+                        <li><a href="1.html"> Mécanique de Newton </a></li>
+                        <li><a href="2.html"> Mouvement d'un oscillateur et des planetes </a></li>
+                        <li><a href="3.html"> Mouvement des satellite mécanique et mesure du temps</a></li>
+                    </ul>
+                </li>
+
+                <li class="menu"><a href="../svt/svt.html"> SVT </a>
+                    <ul class="submenu">
+                        <li><a href="../svt/1.html"> Formation et disparition des chaînes de montagnes </a></li>
+                        <li><a href="../svt/2.html"> Les caractéristique de la lithosphère continentale </a></li>
+                        <li><a href="../svt/3.html"> Sujet3 </a></li>
+                    </ul>
+                </li>
+
+                <li class="menu"><a href="info.html">Informations</a></li>
+            </ul>
+    </nav>
+    
+      <h1>La mécanique de Newton</h1><br>
+    
+    <h3><strong>SOMMAIRE</strong></h3>
+    
+    <ul>
+        <li>
+            <em><a href="#a1">1) La cinématique du point</a></em>
+            <ul>
+                <li>
+                    <a href="#a2">A. Mouvement et référentiel</a>
+                </li>
+                
+                <li>
+                    <a href="#a3">B. Caractéristiques du mouvement</a>
+                </li>
+                
+                <li>
+                    <a href="#a4">C. Différents types de mouvements</a>
+                </li>
+            </ul>
+        </li>
+        <br>
+        
+        <li>
+            <em><a href="#a5">2) La dynamique de Newton</em></a>
+            <ul>
+                <li>
+                    <a href="#a6">A. Bilan des forces</a>
+                </li>
+                
+                <li>
+                    <a href="#a7">B. Référentiels galiléens</a>
+                </li>
+                
+                <li>
+                    <a href="#a8">C. Les lois de Newton</a>
+                </li>
+            </ul>
+        </li>
+    </ul>
+    
+    <h2 id="a1">1) La cinématique du point</h2>
+    La cinématique est la partie de la physique qui étudie les mouvement des systèmes indépendamment des causes qui les produisent.<br><br><br>
+    
+    <h3 id="a2">A. Mouvement et référentiel</h3>
+    
+    <ul>
+        <li>
+            Le mouvement d'un point est toujours étudié par rapport à un référentiel. Un référentiel est un observateur lié à un système
+            d'axes de coordonnées et muni d"un dispositif pour mesurer le temps
+        </li><br>
+        
+        <li>
+            On distingue 3 référentiels :<br>
+            - référentiel terrestre (véhicules, etc.)<br>
+            - référentiel géocentrique (satellites, etc.)<br>
+            - référentiel héliocentrique (planètes, etc.)
+        </li><br>
+        
+    </ul>
+    
+    <h3 id="a3">B. Caractéristiques du mouvement</h3>
+    
+    <ul>
+        <li>
+            La trajetoire est le chemin suivi par le point dans l'espace.<br>
+            pour repérer le point, on définit un repère d'espace attaché<br>
+            au référentiel.
+            <img class="droite" src="8.png" alt="">
+        </li><br>
+        
+        <li>
+            La position d'un point M au cours du temps est repéré par<br>
+            le <strong>vecteur position <span class="sy"><i>OM</i><span class="oncapital">&rarr;</span></span></strong>.
+        </li><br>
+        
+        <li>
+            les coordonnée de ce vecteur dans le repère sont égales<br>
+            à celles du point M :<br>
+            <p class="bordure1">
+            <span class="sy"><i>OM</i><span class="oncapital">&rarr;</span></span>(t) = x(t)
+            <span class="sy"><i>i</i><span class="oncapital">&rarr;</span></span> + y(t)
+            <span class="sy"><i>y</i><span class="oncapital">&rarr;</span></span> + z(t)
+            <span class="sy"><i>k</i><span class="oncapital">&rarr;</span></span></p>
+        </li><br>
+        
+        <li>
+            La vitesse v d'un point au cours du temps est repéré par<br>
+            le vecteur vitesse <span class="sy"><i>v</i><span class="oncapital">&rarr;</span></span>.
+        </li><br>
+        
+        <li>
+            le vecteur vitesse de point M est égal à la <strong>dérivée par<br>
+            rapport au temps du vecteur position</strong> de M :<br><br>
+			<p class="bordure2">
+            <span class="sy"><i>v</i><span class="oncapital">&rarr;</span></span>(t) = d
+			<span class="sy"><i>OM</i><span class="oncapital">&rarr;</span></span>/dt</p>
+			<br><br>
+            <img class="droite" src="9.png" alt="">
+            Ses coordonnées sont égales aux dérivées par rapport au<br>
+            temps des coordonnées du vecteur position :<br>
+           <img src="2.png" alt="vecteur">
+        </li><br>
+        
+        <li>
+            L'<strong>accélération a</strong> d'un point, au cours du temps est repéré<br>
+            par le vecteur accélération <span class="sy"><i>a</i><span class="oncapital">&rarr;</span></span>.
+            Le vecteur accélération<br>
+            du point M est égal à la <strong>dérivée par rapport au temps<br>
+            du vecteur vitesse</strong>, ou à la <strong>dérivée seconde par rapport au temps du vecteur
+            position</strong> :<br>
+            <img src="3.png" alt="vecteur"><br><br>
+            Ses coordonnées sont égales aux dérivées par rapport au temps des coordonnées du vecteur
+            vitesse, ou des dérivées secondes des coordonnées du vecteur position :<br>
+            <img src="4.png" alt="vecteur">
+        </li>
+     </ul><br>
+    
+    <h3 id="a4">C. Différents types de mouvements</h3>
+    
+        On identifie le mouvement d'un point matériel à partir de son type de trajectoire et de
+        l'évolution dans le temps de sa vitesse. Il existe plusieurs types de mouvement:
+        
+    <ul>
+        <li>
+            <strong>Mouvement rectiligne et uniforme</strong>: à condition où
+            <span class="sy"><i>v</i><span class="oncapital">&rarr;</span></span> = constante
+            et <span class="sy"><i>a</i><span class="oncapital">&rarr;</span></span> =
+            <span class="sy"><i>0</i><span class="oncapital">&rarr;</span></span><br>
+        </li><br>
+        
+        <li>
+            <strong>Mouvement rectiligne et uniformément varié</strong>: à condition où
+            <span class="sy"><i>a</i><span class="oncapital">&rarr;</span></span> = constante
+        </li><br>
+
+        
+        <li>
+            <strong>Mouvement circulaire et uniforme</strong>: à condition où
+            <span class="sy"><i>v</i><span class="oncapital">&rarr;</span></span> = constante<br>
+        </li><br>
+        
+        <li>
+            <strong>Mouvement circulaire et non uniforme</strong>: à condition où
+            <span class="sy"><i>v</i><span class="oncapital">&rarr;</span></span>
+            varie au cours du temps.<br>
+        </li><br>
+    </ul>
+    
+    <h2 id="a5">2) La dynamique de Newton</h2>
+        La dynamique permet de prévoir le mouvement d'un point matériel à partir de ses causes.<br><br><br>
+        
+    <h3 id="a6">A. Bilan des forces</h3>
+    
+    <ul>
+        <li>
+            Une force appliquée à un système mécanique indéformable a pour conséquence:<br>
+            - de le mettre en mouvement;<br>
+            - de modifier son mouvement (vitesse, trajectoire).
+        </li><br>
+        
+        <li>
+            On associe à une force une <strong>intensité</strong> exprimée en <strong>
+            newtons(N)</strong>. On la représente par un <strong>vecteur force
+            <span class="sy"><i>F</i><span class="oncapital">&rarr;</span></span></strong>
+            caractérisé par :<br>
+            - son point d'application ;<br>
+            - son sens ;<br>
+            - sa longueur.
+        </li><br>
+    </ul>
+    
+    <h3 id="a7">B. Référentiels galiléens</h3>
+        
+    <ul>
+        <li>
+            Un référentiel est dit galiléen <strong>si le mouvement d'un point matériel
+            isolé est rectiligne et uniforme</strong> dans ce référentiel.
+        </li><br>
+        
+        <li>
+            Le <strong>référentiel de Copernic</strong>, dont l'origine est le centre des masses du
+            Système solaire et dont les trois axes pointent vers trois étoiles fixes est galiléen.<br>
+            <strong>Tout référentiel en mouvement rectiligne et uniforme par rapport au référentiel
+            de Copernic est galiléen.</strong>
+        </li><br>
+    </ul>
+    
+    <h3 id="a8">C. Les lois de Newton</h3>
+        Les lois de Newton sont uniquement valables dans des référentiels galiléens.<br>
+        Pour appliquer ces lois, il faut au préalable réaliser un <strong>bilan des forces</strong>
+        appliquées au système.
+    
+    <ul>
+        <li>
+            <strong>Première loi de Newton</strong><br>
+            Dans un référentiel galiléen, si la somme vectorielle des forces extérieures est nulle,
+            alors le mouvement du centre d'inertie est rectiligne et uniforme : son vecteur
+            vitesse est constant au cours du temps.<br>
+            La réciproque est vraie : si le centre d'inertie est animé d'un mouvement rectiligne
+            et uniforme alors la somme vectorielle des forces extérieures est égale au vecteur nul.<br>
+            <p class="bordure2">
+            &#8721; <span class="sy"><i>F</i><span class="oncapital">&rarr;</span></span>ext =
+            <span class="sy"><i>0</i><span class="oncapital">&rarr;</span></span> &#8660;
+            <span class="sy"><i>v</i><span class="oncapital">&rarr;</span></span> ne varie
+            pas au cours du temps.
+            </p>
+        </li><br>
+        
+        <li>
+            On définit une grandeur attachée au point matériel qui est la <strong> quantité
+            de mouvement p</strong>. Le vecteur quantité de mouvement
+            <span class="sy"><i>p</i><span class="oncapital">&rarr;</span></span> est égal au
+            produit de la masse m du point matériel par le vecteur vitesse
+            <span class="sy"><i>v</i><span class="oncapital">&rarr;</span></span> : <br>
+            <p class="bord3">
+            <span class="sy"><i>p</i><span class="oncapital">&rarr;</span></span> = m &#215;
+            <span class="sy"><i>v</i><span class="oncapital">&rarr;</span></span></p>
+        </li>
+        
+        <li>
+            <strong>Deuxième loi de Newton</strong><br>
+            Dans un référentiel galiléen, la somme vectorielle des forces extérieures qui
+            s'exercent sur un système de masse m est égal à la dérivée par rapport au temps
+            du vecteur quantité de mouvement
+            <span class="sy"><i>p</i><span class="oncapital">&rarr;</span></span>
+            du centre d'inertie du système.<br>
+            <img src="5.png" alt="newton">
+        </li><br>
+        
+        <li>
+            <strong>Troisième loi de Newton</strong><br>
+            Considérons un système A exerçant une force
+            <span class="sy"><i>F</i><span class="oncapital">&rarr;<p class="taille">A/B</p></span></span>
+            sur un système B. Alors, le système B<br> exerce une force
+            <span class="sy"><i>F</i><span class="oncapital">&rarr;<p class="taille">B/A</p></span></span>
+            sur le système A qui le même droite d'action, la même norme et un<br>
+            sens opposé à la force
+            <span class="sy"><i>F</i><span class="oncapital">&rarr;<p class="taille">A/B</p></span></span>.
+            <img class="i6" src="6.png" alt=""><br>
+            <img src="7.png" alt="">            
+            
+        </li>
+    </ul>
+    
+    <p>
+        Maintenant que vous avez fini la lecon sur ce chapitre,<br>
+        on vous a proposé une Quiz pour tester vous connaissance sur cette leçon.<br>
+        Allez! C'est parti! Balançez-vous! Cliquer sur le smiley!<br>
+        <a href="Quiz chap1.html"> <img class="i26" src="26.jpg" alt=""></a>
+    </p>
+
+    <footer>
+        <p>Le Funz</p>
+    </footer>
+
+</body>
+</html>
+    
+    
+   
+    
+    

@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Go Reviser</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Project D'ISN">
+    <link rel="stylesheet" href="../styles.css">
+</head>
+<body>
+    <header>
+    </header>
+    <nav>
+            <ul>
+                <li class=menu-index>
+                    <a href="../index.html">Go Réviser</a>
+                </li>
+                <li class="menu"><a href="math.html"> Mathématiques </a>
+                    <ul class="submenu">
+                        <li><a href="1.html"> Nombres complexes </a></li>
+                        <li><a href="2.html"> Fonction exponentielle </a></li>
+                        <li><a href="3.html"> Logarithme népérien </a></li>
+                    </ul>
+                </li>
+
+                <li class="menu"><a href="../lianbin/physique.html"> Physique </a>
+                    <ul class="submenu">
+                        <li><a href="../lianbin/1.html"> Mécanique de Newton </a></li>
+                        <li><a href="../lianbin/2.html"> Mouvement d'un oscillateur et des planetes </a></li>
+                        <li><a href="../lianbin/3.html"> Mouvement des satellite mécanique et mesure du temps</a></li>
+                    </ul>
+                </li>
+
+                <li class="menu"><a href="../svt/svt.html"> SVT </a>
+                    <ul class="submenu">
+                        <li><a href="../svt/1.html"> Formation et disparition des chaînes de montagnes </a></li>
+                        <li><a href="../svt/2.html"> Les caractéristique de la lithosphère continentale </a></li>
+                        <li><a href="../svt/3.html"> Sujet3 </a></li>
+                    </ul>
+                </li>
+
+                <li class="menu"><a href="info.html">Informations</a></li>
+            </ul>
+    </nav>
+    
+   <center><h1>Nombres complexes</h1></center> 
+   <br><br><br><br>
+    
+    <h2> 1) Définition-Propriétés</h2>
+    
+	<ul>
+		<li>
+			Un nombre complexe &#438; s'écrit de façon unique sous la forme &#97; + &#8560;&#119887; ;&#97; &isin; &#8477; ; &#119887; &isin; &#8477;. <br>
+			On dit que &#97; + &#8560;&#119887; est la <em>forme algébrique</em> du nombre complexe &#438;.<br>
+			&#97; est la <em>partie réelle</em> de &#438;, on note &#97; = &real;&#120202;(&#120223;)<br>
+			&#119887; est la <em>partie imaginaire</em> de &#438;, de &#438;, on note &#595; = &image;&#120366;(&#120223;)
+		</li>
+		<br>
+		
+		<li>
+			Le nombre complexe &#8560; est tel que <em>&#8560;² = &#8722;1.</em><br>
+			Les complexes de la forme &#119887;&#8560; avec &#119887; &isin; IR,sont appelés <em>imaginaires purs.</em>
+		</li>
+		<br>
+		
+		<li>	
+			Deux nombres complexes sont égaux si et seulement si ils ont même partie réelle et même partie imaginare.
+		</li>
+	</ul>
+
+    
+    <h2>2) &#201;quation du second degré à coefficients réels</h2>
+    
+	<ul>
+		<li>
+   
+			L'équation <em>&#97;&#438;² + &#119887;&#438; + &#119888; = 0,</em> où &#97;, &#119887; et &#97; sont des réels (avec &#97; &ne; 0) admet dans &#8450; deux solutions (éventuellement confondues).<br>
+			Soit <em>&#8710; = &#119887;² - 4&#97;&#119888;</em> le discriminant de l'équation. &#8710; est un nombre réel.<br>
+			- si <em>&#8710; &ge; 0,</em> les deux solutionns sont réelles: &#438;<sub>1</sub> =<em> &#8722;&#119887; &#8722; &#8730;&#8710; &#8260;2a</em> &nbsp;&nbsp;&nbsp;et&nbsp;&nbsp;&nbsp; &#438;<sub>2</sub> = <em>&#8722;&#119887; +  &#8730;&#8710; &#8260;2a</em> <br>
+			- si <em>&#8710; &le; 0,</em> on peut écrire <em>&#8710; =  (&#8560;&delta;)²</em> avec &delta; &isin; &#8477;, les deux solutions sont alors des nombres complexes(conjugués l'un de l'autre)<br>
+		</li>
+			
+		<li>
+			&#438;<sub>1</sub> = <em>&#8722;&#119887; &#8722;&#8560;&delta; &#8260;2a </em>     et     &#438;<sub>2</sub> =  <em>&#8722;&#119887;+ &#8560;&delta; &#8260;2a</em><br>
+			Le trinome &#97;&#438;² + &#119887;&#438; + &#119888; se factorise sous la forme &#97;(&#438;&#8722;&#438;&#120793;)(&#438;&#8722;&#438;&#120794;)    
+		</li>
+	</ul>
+   
+    
+    <h2>3) Module et conjugué d'un nombre complexe</h2>   
+
+	<ul>
+		<li>
+			On appelle <em>module</em> du nombre complexe &#438; = &#97; + &#8560;&#119887;, &#97; &isin; &#8477;, &#119887; &isin; &#8477;, le réel positif <em> &#9144;&#438;&#9145; =  &radic;&#97;²+&#119887;².</em><br>
+			&#9144;&#438;&#9145; = 0   &#8660;  &#438;= 0 &nbsp;&nbsp;&nbsp;;&nbsp;&nbsp;&nbsp; &#9144;&#8722;&#438;&#9145; = &#9144;&#438;&#9145; &nbsp;&nbsp;&nbsp;;&nbsp;&nbsp;&nbsp; &#9144;&#438;+&#438;'&#9145; &#8804; &#9144;&#438;&#9145; + &#9144;&#438;'&#9145;<br>
+			&#9144;&#438;&#438;'&#9145; = &#9144;&#438;&#9145; . &#9144;&#438;'&#9145; ; &nbsp;  &#9144;1&frasl;&#438;&#9145; = 1&frasl;&#9144;&#438;&#9145; &nbsp; ;&nbsp;&nbsp;&nbsp; &#9144;&#438;&frasl;&#438;'&#9145; = &#9144;&#438;&#9145;&nbsp;&frasl;&nbsp;&#9144;&#438;'&#9145;<br>
+		</li>
+		
+		<li>
+			On appelle <em>conjugué</em> du nombre complexe <em>&#438;&#9146;=&#97; - &#8560;&#119887;</em></p>
+		</li>
+	</ul>
+	
+	<h2>4) Forme trigonométrique d'un nombre complexe non nul</h2>
+
+	<ul>
+		<li>
+			Tout nombre nombre complexe non nul &#438; peu être écrit sous la forme : <em>&#438;=&#120371; (cos &theta; + &#8560; sin &theta;)</em> avec &theta; &isin; &#8477; et &#120371; &isin; &#8477;+*.<br> 
+			C'est la <em>forme trigonométrique</em> de &#438;<br>
+			&#120371; est le module de &#438;,   &#120371; = &#9144;&#438;&#9145;<br>
+			&theta; est un <em>argument</em> de &#438;. <br>
+			Si &#438;=&#120371; (cos &theta; + &#8560; sin &theta;) alors <br>
+			&#8728; &#438;&#9146; = &#120371; (cos (&#9594;&theta;) + &#8560; sin (&#9594;&theta;))<br>
+			&#8728; &#9594;&#438;=&#120371; (cos (&theta;+&pi;)+&#8560; sin&theta;+&pi;)</p>   <center> <img src="Cercle.png"> </center> 
+		</li>
+	</ul>
+
+<h2> 5) Argument d'un nombre complexe</h2>
+
+	<ul>
+		<li>
+			L'argument d'un nombre complexe &#438; n'est pas unique, il est défini modulo 2&pi;. <br>
+			Si &theta; est un argument de &#438;, on notera &#120094;&#120111;&#120100; &#438;= &theta; [2&pi;] ou &#120094;&#120111;&#120100; &#438;= &theta; + 2&#119896;&pi;(
+			&#119896;&isin;&#8484;)<br>
+			On appelle <em>argument principal</em> de &#438; l'argument de &#438; appartenant à ]&#9594;&pi;;&pi;].<br><br>
+		<li>
+			Pour &#438; &isin; &#8450;* et  &#438;' &isin; &#8450;*, on a &#438;=&#438;'  &#8660;    &#9136;  &#9144;&#438;&#9145; =  &#9144;&#438;'&#9145; 
+    	</li>
+    
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &#9137; &#120094;&#120111;&#120100; &#438; = &#120094;&#120111;&#120100; &#438;' [2&pi;]</p>
+	
+	</ul>
+
+<h2> 6) Notation exponentielle </h2> 
+
+	<ul>
+		<li>
+			On note <em> cos &theta; + &#8560; sin &theta; = &#x2147;<sup>&#8560;&theta;</sup></em> &nbsp;&nbsp;et&nbsp;&nbsp; <em> &#120371;(cos &theta; + &#8560; sin &theta;)=&#120371;&#x2147;<sup>&#8560;&theta;</sup></em><br><br>
+			&#x2147;<sup>&#8560;&theta;.&#x2147;</sup><sup>&#8560;&theta;'</sup>=&#x2147;<sup>&#8560;(&theta;+&theta;')</sup> &nbsp;&nbsp; ;&nbsp;&nbsp;  &#8543; &#x2147;<sup>&#8560;&theta;</sup>=&#x2147;<sup>&#8560;&theta;&#9146;</sup> = &#x2147;<sup>-&#8560;&theta;</sup> &nbsp;&nbsp; ; &nbsp;&nbsp;  &#x2147;<sup>&#8560;&theta;</sup>/ &#x2147;<sup>&#8560;&theta;'</sup>=&#x2147;<sup>&#8560;(&theta;-&theta;')</sup><br><br>
+			(&#x2147;<sup>&#8560;&theta;</sup>)<sup>n</sup> = &#x2147;<sup>&#8560;n&theta;</sup>
+		</li>
+	</ul>
+ <p>
+        Maintenant que vous avez fini la lecon sur ce chapitre,<br>
+        on vous a proposé une Quiz pour tester vous connaissance sur cette leçon.<br>
+        Allez! C'est parti! Balançez-vous! Cliquer sur le smiley!<br>
+        <a href="Quiz chap1.html"> <img class="i26" src="26.jpg" alt=""></a>
+    </p>
+   
+    <footer>
+        <p>Le Funz</p>
+    </footer>
+
+</body>
+</html>
